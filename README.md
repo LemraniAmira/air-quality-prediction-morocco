@@ -92,7 +92,3 @@ Puis exécuter les notebooks dans l'ordre : `01_collecte.ipynb` → `02_preparat
 - Le **Random Forest centralisé** est le modèle le plus performant (R² = 0.896).
 - Le **Federated Learning** (manuel ou Flower) reste moins précis que le centralisé (écart de R² d'environ 0.26 à 0.37), un compromis cohérent avec le principe de préservation de la confidentialité des données locales.
 - Plus de rounds de communication ou plus de données locales par ville amélioreraient la convergence du modèle fédéré.
-
-## 👥 Auteures
-
-Projet réalisé par **LAMRINI Houda** et **LEMRANI Amira** — Master BDSI (Big Data et Systèmes Intelligents), Faculté des Sciences Dhar El Mahraz, USMBA, Fès.
